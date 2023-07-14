@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #9E69C5;
+  background: #9e69c5;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -157,7 +157,7 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0; 
+  padding: 0;
   max-height: 50px;
 }
 
@@ -273,7 +273,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #9E69C5;
+  color: #9e69c5;
   text-decoration: none;
 }
 
@@ -537,7 +537,7 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #9E69C5;
+  border: 2px solid #9e69c5;
   transition: all 0.3s ease-in-out;
 }
 
@@ -547,7 +547,7 @@ h6 {
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #9E69C5;
+  background: #9e69c5;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -848,8 +848,18 @@ h6 {
   background: #3395ff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -1166,7 +1176,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #9E69C5;
+  background: #9e69c5;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1222,7 +1232,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #9E69C5;
+  background: #9e69c5;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
