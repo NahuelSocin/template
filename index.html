@@ -60,7 +60,7 @@
             <li class="active"><a href="#intro">Inicio</a></li>
             <li><a href="#about">Nosotros</a></li>
             <li><a href="#services">Servicios</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="#portfolio">Blog</a></li>
             <li><a href="#team">Equipo</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
@@ -317,78 +317,266 @@
       <!-- #Servicos -->
 
       <!--==========================
-    Blog
-  ============================-->
-      <section id="blog">
-        <div class="container-fluid">
-          <div class="section-header">
-            <h3>Blog</h3>
-            <p>
-              Participa de nuestros blogs. Enterate de todas nuestras
-              actividades y las últimas noticias de nuestra empresa.
-            </p>
-          </div>
+     Seccion Blog
+    ============================-->
+      <section id="portfolio" class="clearfix">
+        <div class="container">
+          <header class="section-header">
+            <h3 class="section-title">Blog</h3>
+          </header>
 
-          <div class="row m-4 justify-content-center">
-            <div class="col-md-5">
-              <img
-                src="img/imagen1Blog.jpeg"
-                class="img-fluid img-thumbnail"
-                alt="comunidad data Analytics"
-              />
-            </div>
-            <div class="col-md-5">
-              <h3>Nuestra comunidad de Data Analytics</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Molestiae architecto, eaque deserunt est velit nostrum eos
-                perferendis, corrupti, dolor dolore facilis esse reprehenderit
-                sit autem! Placeat, harum accusantium? Earum, neque!
-              </p>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Dashboard</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
             </div>
           </div>
 
-          <div class="row m-4 justify-content-center">
-            <div class="col-md-5">
-              <img
-                src="img/imagen3blog.jpeg"
-                class="img-fluid img-thumbnail"
-                alt="imagen Dashboard"
-              />
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><a href="#">App 1</a></h4>
+                  <p>App</p>
+                  <div>
+                    <a
+                      href="img/portfolio/app1.jpg"
+                      data-lightbox="portfolio"
+                      data-title="App 1"
+                      class="link-preview"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-5">
-              <h3>Dashboard de nuestra comunidad</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Cumque, cum, totam ad dolorum nulla placeat accusantium
-                explicabo vero ducimus autem inventore? Facere aspernatur
-                facilis vel ratione consequuntur dicta corrupti deserunt?
-              </p>
-            </div>
-          </div>
 
-          <div class="row m-4 justify-content-center">
-            <div class="col-md-5">
-              <img
-                src="img/imagen4blog.jpeg"
-                class="img-fluid img-thumbnail"
-                alt="datos en el deporte"
-              />
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-web"
+              data-wow-delay="0.1s"
+            >
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><a href="#">Web 3</a></h4>
+                  <p>Web</p>
+                  <div>
+                    <a
+                      href="img/portfolio/web3.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="Web 3"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-5">
-              <h3>El big data en los deportes</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-                sapiente ab nam non, fugit mollitia qui? Error maiores
-                voluptatem vel adipisci illo aliquam corporis fugit at officiis
-                sapiente, veritatis perspiciatis.
-              </p>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              data-wow-delay="0.2s"
+            >
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><a href="#">App 2</a></h4>
+                  <p>App</p>
+                  <div>
+                    <a
+                      href="img/portfolio/app2.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="App 2"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/portfolio/imgDashboard3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4><a href="#">Dashboard 1</a></h4>
+                  <p>Dashboard</p>
+                  <div>
+                    <a
+                      href="img/portfolio/imgDashboard3.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="Card 2"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-web"
+              data-wow-delay="0.1s"
+            >
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><a href="#">Web 2</a></h4>
+                  <p>Web</p>
+                  <div>
+                    <a
+                      href="img/portfolio/web2.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="Web 2"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              data-wow-delay="0.2s"
+            >
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><a href="#">App 3</a></h4>
+                  <p>App</p>
+                  <div>
+                    <a
+                      href="img/portfolio/app3.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="App 3"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="img/portfolio/imgashboard1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4><a href="#">Dashboard 2</a></h4>
+                  <p>Dashboard</p>
+                  <div>
+                    <a
+                      href="img/portfolio/imgashboard1.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="Card 1"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-card"
+              data-wow-delay="0.1s"
+            >
+              <div class="portfolio-wrap">
+                <img
+                  src="img/portfolio/imgashboard2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4><a href="#">Dashboard 3</a></h4>
+                  <p>Dashboard</p>
+                  <div>
+                    <a
+                      href="img/portfolio/imgashboard2.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="Card 3"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-web"
+              data-wow-delay="0.2s"
+            >
+              <div class="portfolio-wrap">
+                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4><a href="#">Web 1</a></h4>
+                  <p>Web</p>
+                  <div>
+                    <a
+                      href="img/portfolio/web1.jpg"
+                      class="link-preview"
+                      data-lightbox="portfolio"
+                      data-title="Web 1"
+                      title="Preview"
+                      ><i class="ion ion-eye"></i
+                    ></a>
+                    <a href="#" class="link-details" title="More Details"
+                      ><i class="ion ion-android-open"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <!-- #Blog-->
+      <!-- #blog -->
 
       <!--==========================
       Seccion Equipo

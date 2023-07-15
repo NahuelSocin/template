@@ -735,7 +735,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #6e2f93;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -745,7 +745,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #9369c5;
   color: #fff;
 }
 
@@ -812,7 +812,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: #1e1e1e;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -831,7 +831,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #9369c5;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -845,7 +845,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
+  background: #6e2f93;
 }
 
 #portfolio
@@ -864,11 +864,11 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
+  background: #50535c;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
+  opacity: 4;
 }
 
 /* Testimonials Section
